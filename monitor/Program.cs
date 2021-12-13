@@ -32,15 +32,11 @@ namespace CONSOLE_TEST
         public static string url;
         public static string firstHtml;
         public static string latestHtml;
-
-        public static List<Item> itemListFirst;    //変更される前のhtmlから取得した商品情報設定用
-        public static List<Item> itemListLatest;   //最新のhtmlから取得した商品情報設定用
         //public static List<string> StaticPageList = new();
 
         public static HttpClient client;
         public static HttpRequest httpRequest;
         public static ReadSettings readSettings;
-        public static IEnumerable<Item> comparedItemsSub;
 
         /* proxy・setting.txt読込情報設定用 */
         public static Setting settingInfo;
