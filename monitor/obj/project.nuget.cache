@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "a+lLi93MNyiCpo2Kb7wfqid2OnmDVlQjcdoWx9WY3AitYUsZLCDNA+Cn3hxlwINz9mxAPy7VJReu7Xf4yOGezw==",
+  "success": true,
+  "projectFilePath": "C:\\01_work\\06_github_Staaak\\00_Console_Test\\monitor\\monitor.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\stsyu\\.nuget\\packages\\anglesharp\\1.0.0-alpha-844\\anglesharp.1.0.0-alpha-844.nupkg.sha512",
+    "C:\\Users\\stsyu\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
+    "C:\\Users\\stsyu\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\stsyu\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.0\\system.runtime.compilerservices.unsafe.4.5.0.nupkg.sha512",
+    "C:\\Users\\stsyu\\.nuget\\packages\\system.text.encoding.codepages\\4.5.0\\system.text.encoding.codepages.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

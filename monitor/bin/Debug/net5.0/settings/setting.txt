@@ -1,0 +1,6 @@
+#↓↓webhookのurl(サイトが更新された通知を受け取るwebhookのurl)
+https://discord.com/api/webhooks/890903274977382431/FPvJ11uDrG0XEIXanXPLiuQE83zsJNTIXGxYR728DHo0sjv6c8MRWiuFAjc_uw_CAQa7
+#↓↓サイトが更新されたかのチェックを何秒間隔で行うか(小数の入力は禁止)
+100
+
+#※すべて左詰めで入力。改行禁止。行数変更禁止。英数字は半角。
