@@ -209,9 +209,8 @@ namespace CONSOLE_TEST
         public void SetHeaders(ref HttpRequestMessage requestMessage)
         {
 #if true
-            /* mct-tokyo */
-            requestMessage.Headers.Add("authority","www.supremenewyork.com");
-            requestMessage.Headers.Add("path", "/shop/new");
+            /* BIG CAMERA */
+            requestMessage.Headers.Add("authority", "www.biccamera.com");
             requestMessage.Headers.Add("accept", "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9");
             requestMessage.Headers.Add("accept-encoding", "deflate");
             requestMessage.Headers.Add("accept-language", "ja-JP,ja;q=0.9,en-US;q=0.8,en;q=0.7");
@@ -221,6 +220,23 @@ namespace CONSOLE_TEST
             requestMessage.Headers.Add("sec-fetch-dest", "document");
             requestMessage.Headers.Add("sec-fetch-mode", "navigate");
             requestMessage.Headers.Add("sec-fetch-site", "none");
+            requestMessage.Headers.Add("sec-fetch-user", "?1");
+            requestMessage.Headers.Add("upgrade-insecure-requests", "1");
+            requestMessage.Headers.Add("user-agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36");
+#endif
+#if false
+            /* nike jp */
+            requestMessage.Headers.Add("authority", "www.nike.com");
+            requestMessage.Headers.Add("path", "/jp/launch?s=in-stock");
+            requestMessage.Headers.Add("accept", "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9");
+            requestMessage.Headers.Add("accept-encoding", "deflate");
+            requestMessage.Headers.Add("accept-language", "ja-JP,ja;q=0.9,en-US;q=0.8,en;q=0.7");
+            requestMessage.Headers.Add("cache-control", "max-age=0");
+            requestMessage.Headers.Add("sec-ch-ua-mobile", "?0");
+            requestMessage.Headers.Add("sec-ch-ua-platform", "Windows");
+            requestMessage.Headers.Add("sec-fetch-dest", "document");
+            requestMessage.Headers.Add("sec-fetch-mode", "navigate");
+            requestMessage.Headers.Add("sec-fetch-site", "same-origin");
             requestMessage.Headers.Add("sec-fetch-user", "?1");
             requestMessage.Headers.Add("upgrade-insecure-requests", "1");
             requestMessage.Headers.Add("user-agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36");

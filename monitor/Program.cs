@@ -15,7 +15,6 @@ using System.Threading.Tasks;
 using System.Windows;
 using System.Linq;
 
-
 //★★★★
 namespace CONSOLE_TEST
 {
@@ -26,7 +25,7 @@ namespace CONSOLE_TEST
 #if TEST_MODE_ON
         const string TEST_URL = "http://192.168.56.1";
 #else
-        const string MONITOR_SITE_URL  = "https://www.supremenewyork.com/shop/new";//★★★★
+        const string MONITOR_SITE_URL  = "https://www.biccamera.com/bc/item/7938885/";//★★★★
 #endif
 
         public static string url;
@@ -61,7 +60,18 @@ namespace CONSOLE_TEST
         /// <returns></returns>
         static async Task Main(string[] args)
         {
-            Console.OutputEncoding = Encoding.UTF8;
+            Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
+            var sjisEnc = Encoding.GetEncoding("Shift_JIS");
+            //Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
+            //Encoding e = Encoding.GetEncoding("Shift_JIS");
+
+            //Console.OutputEncoding = Encoding.UTF8;
+            //Console.OutputEncoding = Encoding.Default;
+            //Console.OutputEncoding = Encoding.GetEncoding("shift_jis");
+            //Console.OutputEncoding = Encoding.GetEncoding(50222);
+            //Console.OutputEncoding = Encoding​.GetEncoding("Shift_JIS");
+            //Encoding.GetEncoding(932);
+            //System.Text.Encoding.RegisterProvider(System.Text.CodePagesEncodingProvider.Instance);
 
             //必要なインスタンス生成
             client = new();
